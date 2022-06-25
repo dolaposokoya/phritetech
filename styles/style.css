@@ -259,7 +259,7 @@ body {
     position: relative;
     width: 100%;
     height: auto;
-    transition: all 1000ms;
+    transition: transform 1000ms;
 }
 
 .portfolio img {
@@ -285,7 +285,7 @@ body {
     color: var(--theme-black);
     font-family: var(--Montserrat);
     font-weight: 600;
-    transition: all 2s;
+    transition: background-color 2s, transform 2s;
     z-index: 99999;
 }
 
@@ -297,23 +297,7 @@ body {
     margin-top: .5em;
     transform: scale(.9);
     background-color: var(--theme-blue);
-}
-
-.address {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 0em .5em;
-}
-
-.address a {
-    padding: .2em 0em;
-    text-align: center;
-    cursor: pointer;
-    color: var(--theme-black);
-    font-family: var(--Montserrat);
-    z-index: 99999;
+    color: var(--white-smoke);
 }
 
 @media screen and (min-width: 734px) {

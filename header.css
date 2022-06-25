@@ -17,12 +17,12 @@
 
 .navContainer {
     display: flex;
-    /* display: none; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-right: .5em;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .active-nav {
@@ -48,7 +48,6 @@
     z-index: 9999;
     position: absolute;
     left: 0;
-    transition: all 1s;
     display: flex;
     align-content: center;
     height: 100%;
@@ -59,16 +58,16 @@
     transition: transform 0.3s;
 }
 
-.navContainer {
+/* .navContainer {
     transition: all 1s;
-}
+} */
 
 .harmburger, .harmburger1, .harmburger2 {
     width: 2.5em;
     border-radius: .2em;
     height: .4em;
     margin: .1em;
-    transition: all 1s;
+    transition: rotate 1s, transform 1s;
     background-color: var(--theme-green);
 }
 
@@ -93,7 +92,6 @@
 
 .menu-container ul li a {
     font-family: var(--Montserrat);
-    /* font-size: 15px; */
     font-size: 1em;
     font-weight: 500;
     color: var(--theme-color);
