@@ -77,6 +77,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    justify-self: center;
+    width: 95%;
     padding: .5em 1em;
 }
 
@@ -134,7 +136,7 @@ body {
 
 .c-logo {
     margin-top: 5em;
-    width: 20em;
+    width: 25em;
 }
 
 .about {
@@ -190,7 +192,8 @@ body {
 }
 
 .developement {
-    background-color: var(--theme-black);
+    /* background-color: var(--theme-black); */
+    background-color: var(--theme-blue);
     box-shadow: 0 1.6rem 2.4rem rgb(0 0 0 / 50%);
     margin: 1.2em 1em;
     padding: 1.2em 2em;
