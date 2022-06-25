@@ -93,7 +93,9 @@
 
 .menu-container ul li a {
     font-family: var(--Montserrat);
-    font-size: 15px;
+    /* font-size: 15px; */
+    font-size: 1em;
+    font-weight: 500;
     color: var(--theme-color);
 }
 
