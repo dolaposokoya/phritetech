@@ -12,10 +12,12 @@
     <link rel="stylesheet" href="./root.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@300;400;700&family=Jura:wght@700&family=Merriweather+Sans:wght@500&display=swap"
         rel="stylesheet">
     <!-- <link rel="manifest" href="https://www.kemiadeleke.com/"> -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
@@ -81,7 +83,8 @@
             <div class="details">
                 <p class="name about">Our Services</p>
                 <div class="services">
-                    <div class="developement">
+                    <div class="developement" data-aos="fade-right"  data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
                         <div class="image">
                             <img src="./assets/html.png" class="icon" alt="developement icon" />
                         </div>
@@ -89,7 +92,8 @@
                         <h4>I work with certain design tools to create high-fidelity designs and prototypes. I design
                             accessible and usable products which aid business growth.</h4>
                     </div>
-                    <div class="developement">
+                    <div class="developement" data-aos="fade-left"  data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
                         <div class="image">
                             <img src="./assets/api.png" class="icon" alt="developement icon" />
                         </div>
@@ -97,7 +101,8 @@
                         <h4>I work with certain design tools to create high-fidelity designs and prototypes. I design
                             accessible and usable products which aid business growth.</h4>
                     </div>
-                    <div class="developement">
+                    <div class="developement" data-aos="fade-right"  data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
                         <div class="image">
                             <img src="./assets/app-development.png" class="icon" alt="developement icon" />
                         </div>
@@ -112,7 +117,8 @@
             <div class="details">
                 <p class="name about">Our Portfolio</p>
                 <div class="services services-portfolio">
-                    <div class="portfolios">
+                    <div class="portfolios" data-aos="fade-left"  data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
                         <div class="portfolio">
                             <img src="./assets/blvckfoot.jpg" class="icon" alt="developement icon" />
                         </div>
@@ -120,7 +126,8 @@
                             <a class="site" href="https://blvckfoot.com" target="_blank">Vist Site</a>
                         </div>
                     </div>
-                    <div class="portfolios">
+                    <div class="portfolios" data-aos="fade-right"  data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
                         <div class="portfolio">
                             <img src="./assets/innovative.jpg" class="icon" alt="developement icon" />
                         </div>
@@ -129,12 +136,23 @@
                                 Site</a>
                         </div>
                     </div>
-                    <div class="portfolios">
+                    <div class="portfolios" data-aos="fade-left"  data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
                         <div class="portfolio">
                             <img src="./assets/ruawi.png" class="icon" alt="developement icon" />
                         </div>
                         <div class="overlays">
                             <a class="site" href="https://ruawi.com" target="_blank">Vist Site</a>
+                        </div>
+                    </div>
+                    <div class="portfolios" data-aos="fade-right"  data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
+                        <div class="portfolio">
+                            <img src="./assets/quickfix.png" class="icon" alt="developement icon" />
+                        </div>
+                        <div class="overlays">
+                            <a class="site" href="https://innovativedrivinginstitute.com" target="_blank">Vist
+                                Site</a>
                         </div>
                     </div>
                 </div>
@@ -143,15 +161,15 @@
         <div class="profile introduction" id="contactme">
             <div class="details">
                 <p class="name about">Get In Touch</p>
-                <div class="services services-portfolio">
+                <!-- <div class="services services-portfolio">
                     <div class="portfolios">
                         <div class="address">
                             <a href="tel:+234-913-904-9016">☎️ +234-913-904-9016</a>
-                            <a href="mailto:dolaposokoya97@gmail.com">📨 dolaposokoya97@gmail.com</a>
-                            <a href="mailto:dolaposokoya97@gmail.com">🗺 No 18 Olabisi Street, Off Ogudu Road, Ojota, Lagos, Nigeria.</a>
+                            <a href="mailto:phritetech@gmail.com">📨 phritetech@gmail.com</a>
+                            <a>🗺 Ojota, Lagos, Nigeria.</a>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>

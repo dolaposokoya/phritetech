@@ -7,3 +7,4 @@ $(document).ready(async () => {
         $(".menu-container").toggleClass("active");
     })
 })
+AOS.init();

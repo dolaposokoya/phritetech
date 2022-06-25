@@ -259,7 +259,7 @@ body {
     position: relative;
     width: 100%;
     height: auto;
-    transition: all 2s;
+    transition: all 1000ms;
 }
 
 .portfolio img {
