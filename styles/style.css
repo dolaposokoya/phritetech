@@ -1,6 +1,6 @@
 body {
-    background-color: var(--theme-black);
-    color: var(--white-smoke);
+    background-color: var(--white-smoke);
+    color: var(--theme-black);
 }
 
 .banner-image {
@@ -20,7 +20,6 @@ body {
     top: 0;
     bottom: 0;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
     left: 0;
@@ -36,6 +35,7 @@ body {
     font-size: 1.8em;
     margin: 0em;
     margin-top: 3em;
+    color: var(--white-smoke);
     -webkit-text-stroke-color: var(--white-smoke);
     -webkit-text-stroke-width: .2mm;
 }
@@ -44,10 +44,11 @@ body {
     font-family: var(--Poppins);
     font-size: 1.5em;
     -webkit-text-stroke-width: .1mm;
+    color: var(--white-smoke);
 }
 
 .tech{
-    color: var(--theme-green);
+    color: var(--theme-green) !important;
 }
 
 .profile, .services {
@@ -105,11 +106,11 @@ body {
 
 .main-info {
     font-family: var(--Poppins);
-    margin-top: .2em;
+    margin-top: 1em;
     width: 100%;
     letter-spacing: 1px;
     font-size: 1.2em;
-    color: var(--theme-green);
+    color: var(--theme-black);
 }
 
 .profession {
@@ -118,7 +119,7 @@ body {
     width: 100%;
     letter-spacing: 1px;
     font-size: 1.1em;
-    color: var(--white-smoke);
+    color: var(--theme-black);
 }
 
 .developer-image {
@@ -144,50 +145,17 @@ body {
     text-align: center;
     text-transform: capitalize;
     width: 100%;
-}
-
-.about {
-    font-family: var(--Poppins);
-    font-weight: 500;
-    letter-spacing: 1px;
-    font-size: 1.5em;
-    text-align: center;
-    text-transform: capitalize;
-    width: 100%;
-}
-
-.professional {
-    font-family: var(--Montserrat);
-    margin-top: 1em;
-    width: 100%;
-    letter-spacing: 1px;
-    font-size: 1.1em;
-    color: var(--white-smoke);
-    text-align: center;
-}
-
-.newline {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
     margin-bottom: 1em;
 }
 
-.newline .who {
-    font-family: var(--Poppins);
-    font-weight: 500;
-    letter-spacing: 1px;
-    font-size: 1em;
-    margin: 0em;
-    color: var(--theme-green);
-    text-transform: capitalize;
-}
 
-.line1 {
-    width: 5em;
-    height: .15em;
-    background-color: var(--theme-green);
+.professional {
+    font-family: var(--Montserrat);
+    margin-top: 1em .2em;
+    width: 95%;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+    text-align: center;
 }
 
 .line {
@@ -315,12 +283,13 @@ body {
 
 .overlays a {
     padding: .8em 3em;
-    background-color: var(--theme-black);
+    background-color: transparent;
     border: none;
     border-radius: .12em;
     cursor: pointer;
-    color: var(--white-smoke);
+    color: var(--theme-black);
     font-family: var(--Montserrat);
+    font-weight: 600;
     transition: all 2s;
     z-index: 99999;
 }
@@ -340,6 +309,8 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: var(--theme-blue);
+    padding: 1.2em .5em;
 }
 
 .address a {
@@ -348,7 +319,6 @@ body {
     cursor: pointer;
     color: var(--white-smoke);
     font-family: var(--Montserrat);
-    transition: all 2s;
     z-index: 99999;
 }
 
@@ -365,7 +335,6 @@ body {
 @media screen and (min-width: 900px) {
     .banner {
         height: 80vh;
-        width: 100vw;
         object-fit: cover;
     }
     .text-align h3 {
