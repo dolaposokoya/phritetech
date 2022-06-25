@@ -9,10 +9,15 @@
     justify-content: space-between;
     align-items: center;
     margin: .1em 0em;
-    margin-top: .5em;
     width: 99vw;
     overflow: hidden;
     padding: .5em 0em;
+    background-color: var(--white-smoke);
+    z-index: 9999;
+
+    position: fixed;
+    margin-top: 4em;
+    padding: 1em 0em;
 }
 
 .navContainer {
@@ -45,29 +50,32 @@
 }
 
 .menu-container {
-    z-index: 9999;
+    z-index: 9999999;
     position: absolute;
+    position: fixed;
     left: 0;
+    transition: all 1s;
     display: flex;
     align-content: center;
     height: 100%;
     width: 100%;
     top: 60px;
-    background-color: rgba(216, 217, 218, 0.9);
-    transform: translateY(-120%);
+    background-color: rgba(216, 217, 218, 0.99);
+    background-color: var(--theme-blue);
+    transform: translateX(-120%);
     transition: transform 0.3s;
 }
 
-/* .navContainer {
+.navContainer {
     transition: all 1s;
-} */
+}
 
 .harmburger, .harmburger1, .harmburger2 {
     width: 2.5em;
     border-radius: .2em;
     height: .4em;
     margin: .1em;
-    transition: rotate 1s, transform 1s;
+    transition: all 1s;
     background-color: var(--theme-green);
 }
 
@@ -76,7 +84,7 @@
 }
 
 .active {
-    transform: translateY(0);
+    transform: translateX(0);
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -92,18 +100,14 @@
 
 .menu-container ul li a {
     font-family: var(--Montserrat);
-    font-size: 1em;
+    font-size: 1.1em;
     font-weight: 500;
-    color: var(--theme-color);
-}
-
-.active-page {
-    color: var(--brown);
+    color: var(--theme-black);
 }
 
 .menu-container ul li a:hover {
     transform: scale(1.1);
-    color: var(--brown);
+    color: var(--theme-green);
 }
 
 .active ul li {
@@ -116,9 +120,10 @@
 
 .active ul li a {
     font-family: var(--Montserrat);
-    font-size: 15px;
-    color: var(--theme-color);
+    font-size: 1.1em;
     padding-left: 2em;
+    margin-bottom: 10em;
+    color: var(--white-smoke);
 }
 
 .close {

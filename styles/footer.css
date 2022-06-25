@@ -50,7 +50,6 @@ footer {
     cursor: pointer;
     color: var(--white-smoke);
     font-family: var(--Poppins);
-    z-index: 99999;
 }
 .fa-solid{
     margin: 0em .4em;
