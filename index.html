@@ -9,6 +9,7 @@
     <link rel="icon" href="./assets/pagelogo.png" />
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/hireus.css">
     <link rel="stylesheet" href="./header.css">
     <link rel="stylesheet" href="./root.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -51,7 +52,7 @@
                         <a page="register" class='current-page' href="#porfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a page="register" class='current-page' href="#contactme">Contact Us</a>
+                        <a page="register" class='current-page' href="#hireus">Contact Us</a>
                     </li>
                 </ul>
             </nav>
@@ -80,9 +81,9 @@
                 <p class="name">Who We Are</p>
                 <p class="profession">Phrite Tech Solutions is an ICT firm that develops and deploys software solutions
                     at scale to solve high-impact business challenges. We are an upcoming<span class="tech"> Tech
-                        Startup</span> in Niger </p>
+                        Startup</span> in Nigeria </p>
                 <div class="hire">
-                    <button class="hireme">Hire Us</button>
+                    <a href="#hireus"> <button class="hireme">Contact Us</button></a>
                 </div>
             </div>
         </div>
@@ -90,7 +91,8 @@
             <div class="details">
                 <p class="name about">Our Services</p>
                 <div class="services">
-                    <div class="developement">
+                    <div class="developement" data-aos="fade-right" data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
                         <div class="image">
                             <img src="./assets/html.png" class="icon" alt="developement icon" />
                         </div>
@@ -98,7 +100,7 @@
                         <h4>I work with certain design tools to create high-fidelity designs and prototypes. I design
                             accessible and usable products which aid business growth.</h4>
                     </div>
-                    <div class="developement">
+                    <div class="developement" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
                         <div class="image">
                             <img src="./assets/api.png" class="icon" alt="developement icon" />
                         </div>
@@ -106,7 +108,8 @@
                         <h4>I work with certain design tools to create high-fidelity designs and prototypes. I design
                             accessible and usable products which aid business growth.</h4>
                     </div>
-                    <div class="developement">
+                    <div class="developement" data-aos="fade-right" data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
                         <div class="image">
                             <img src="./assets/app-development.png" class="icon" alt="developement icon" />
                         </div>
@@ -121,7 +124,7 @@
             <div class="details">
                 <p class="name about">Our Portfolio</p>
                 <div class="services services-portfolio">
-                    <div class="portfolios">
+                    <div class="portfolios" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
                         <div class="portfolio">
                             <img src="./assets/blvckfoot.jpg" class="icon" alt="developement icon" />
                         </div>
@@ -129,7 +132,7 @@
                             <a class="site" href="https://blvckfoot.com" target="_blank">Vist Site</a>
                         </div>
                     </div>
-                    <div class="portfolios">
+                    <div class="portfolios" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                         <div class="portfolio">
                             <img src="./assets/innovative.jpg" class="icon" alt="developement icon" />
                         </div>
@@ -138,7 +141,7 @@
                                 Site</a>
                         </div>
                     </div>
-                    <div class="portfolios">
+                    <div class="portfolios" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
                         <div class="portfolio">
                             <img src="./assets/ruawi.png" class="icon" alt="developement icon" />
                         </div>
@@ -146,7 +149,7 @@
                             <a class="site" href="https://ruawi.com" target="_blank">Vist Site</a>
                         </div>
                     </div>
-                    <div class="portfolios">
+                    <div class="portfolios" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
                         <div class="portfolio">
                             <img src="./assets/quickfix.png" class="icon" alt="developement icon" />
                         </div>
@@ -158,11 +161,42 @@
                 </div>
             </div>
         </div>
+        <div class="profile introduction" id="clients">
+            <div class="center">
+                <div class="details">
+                    <p class="name about">Our Clients</p>
+                    <div class="clients" data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
+                        <img src="./assets/GSSL-LOGO.png" />
+                        <img src="./assets/ruawilogo.png" />
+                        <img src="./assets/innovativelogo.png" />
+                        <img src="./assets/quickfixlogowhite.png" />
+                        <img src="https://i0.wp.com/blvckfoot.com/wp-content/uploads/2022/01/cropped-blvckfoot-1.jpeg?fit=192%2C192&ssl=1" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="profile introduction" id="hireus">
+            <div class="center">
+                <div class="details">
+                    <p class="name about">Contact Us</p>
+                    <form class="hireus-form" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"
+                        data-aos-offset="300">
+                        <input name="name" placeholder="Full Name" id="full_name" type="text" required />
+                        <input name="email" placeholder="Email" id="email" type="email" required />
+                        <input name="subject" placeholder="Subject" id="subject" type="text" required />
+                        <textarea name="message" rows="5" placeholder="Message" type="text" required></textarea>
+                        <button class="sendMail">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
     <footer>
         <span class="social-icons">
             <a href="https://www.instagram.com/phritetech/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://www.instagram.com/phritetech/" target="_blank"> <i class="fa-brands fa-twitter"></i></a>
+            <a href="https://twitter.com/PhriteT" target="_blank"> <i class="fa-brands fa-twitter"></i></a>
         </span>
         <div class="address">
             <a href="tel:+234-913-904-9016">

@@ -1,5 +1,8 @@
 body {
     background-color: var(--white-smoke);
+    background-image: url(../assets/path.svg);
+    background-repeat: no-repeat;
+    object-fit: contain;
     color: var(--theme-black);
 }
 
@@ -41,6 +44,7 @@ body {
     -webkit-text-stroke-color: var(--white-smoke);
     -webkit-text-stroke-width: .2mm;
 }
+
 .text-align span {
     text-align: center;
     font-family: var(--Poppins);
@@ -49,7 +53,7 @@ body {
     color: var(--white-smoke);
 }
 
-.tech{
+.tech {
     color: var(--theme-green) !important;
 }
 
@@ -240,6 +244,11 @@ body {
     margin: 1em 0em;
 }
 
+#porfolio {
+    background-image: url(../assets/path1.svg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
 
 #porfolio .who {
     width: 6em;
@@ -303,19 +312,23 @@ body {
     .text-align {
         justify-content: center;
     }
+
     .text-align h3 {
         margin: 0em;
         font-size: 2.2em;
     }
 }
+
 @media screen and (min-width: 900px) {
     .banner {
         height: 80vh;
         object-fit: cover;
     }
+
     .text-align h3 {
         font-size: 3em;
     }
+
     .text-align span {
         font-size: 2em;
     }
