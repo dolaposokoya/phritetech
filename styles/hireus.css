@@ -1,7 +1,8 @@
-.center {
+.center1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: aqua;
 }
 
 .hireus-form, .clients {

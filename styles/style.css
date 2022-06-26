@@ -1,8 +1,6 @@
 body {
     background-color: var(--white-smoke);
-    background: url(../assets/path.svg) no-repeat;
-    /* background-repeat: no-repeat; */
-
+    /* background-color: var(--theme-black); */
     color: var(--theme-black);
 }
 
