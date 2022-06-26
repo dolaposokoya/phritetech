@@ -18,8 +18,10 @@
 
 .clients {
     background-color: transparent;
+    width: 80vw;
     box-shadow: none;
     display: grid;
+    justify-items: center;
     grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
 }
 

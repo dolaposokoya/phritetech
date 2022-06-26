@@ -1,7 +1,8 @@
 body {
     background-color: var(--white-smoke);
-    background-repeat: no-repeat;
-    object-fit: contain;
+    background: url(../assets/path.svg) no-repeat;
+    /* background-repeat: no-repeat; */
+
     color: var(--theme-black);
 }
 
@@ -9,7 +10,6 @@ body {
     width: 100%;
     position: relative;
     z-index: -1;
-    width: 100%;
     margin-top: 4em;
 }
 
@@ -59,20 +59,20 @@ body {
 .profile, .services {
     margin: 1em 0em;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
 }
 
-
-.company-logo {
-    margin-top: 1em;
+#home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-
 .details {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 97%;
     padding: 1em .5em;
     margin-top: 1em;
 }
@@ -239,13 +239,13 @@ body {
 }
 
 .services-portfolio {
-    grid-template-columns: repeat(auto-fit, minmax(23em, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
     margin: 1em 0em;
 }
 
 #porfolio {
-    /* background-image: url(../assets/path1.svg); */
-    object-fit: cover;
+    width: 100%;
+    background-image: url(../assets/path1.svg);
     background-repeat: no-repeat;
 }
 
@@ -254,24 +254,28 @@ body {
 }
 
 .portfolios {
-    margin: 1.2em .8em;
+    margin: 1.2em 0em;
     display: flex;
     justify-content: center;
     align-items: center;
     justify-self: center;
-    align-self: center;
     flex-direction: column;
+    width: 90%;
 }
 
 .portfolio {
     position: relative;
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    width: 95%;
     height: auto;
     transition: transform 1000ms;
 }
 
 .portfolio img {
-    width: 100%;
+    width: 95%;
     border-radius: .5em;
     cursor: pointer;
 }
@@ -280,7 +284,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: .5em;
     border-radius: .5em;
 }
 
@@ -340,7 +343,7 @@ body {
         flex-direction: column;
     }
 
-    .profile {
+    /* .profile {
         width: 70vw;
-    }
+    } */
 }
