@@ -235,11 +235,6 @@ body {
     margin: 1em 0em;
 }
 
-#porfolio {
-    width: 100%;
-    background-image: url(../assets/path1.svg);
-    background-repeat: no-repeat;
-}
 
 #porfolio .who {
     width: 6em;
@@ -303,6 +298,11 @@ body {
 }
 
 @media screen and (min-width: 734px) {
+    #porfolio {
+        width: 100%;
+    }
+
+    
     .text-align {
         justify-content: center;
     }
@@ -334,8 +334,4 @@ body {
         align-items: center;
         flex-direction: column;
     }
-
-    /* .profile {
-        width: 70vw;
-    } */
 }
