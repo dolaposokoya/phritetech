@@ -129,6 +129,14 @@ body {
     width: 25em;
 }
 
+#home{
+    background: url(../assets/5348665.png);
+    /* opacity: .7; */
+}
+#porfolio{
+    background: url(../assets/55.png);
+    /* opacity: .7; */
+}
 .about {
     font-family: var(--Poppins);
     font-weight: 500;
