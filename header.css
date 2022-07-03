@@ -73,6 +73,7 @@
 
 .sticky .menu-container {
     height: auto;
+    background-color: black;
 }
 
 .active {
