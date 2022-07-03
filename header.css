@@ -79,7 +79,6 @@
 
 .sticky .menu-container {
     height: auto;
-    background-color: rgb(154, 52, 52);
 }
 
 .active {
@@ -87,15 +86,15 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    background-color: rgb(105, 24, 130);
     overflow: hidden;
 }
 
 .sticky .active {
     transform: translateX(0);
-    display: flex;
-    flex-direction: column;
     width: 100%;
-    overflow: hidden;
+    height: auto;
+    background-color: rgb(198, 98, 17);
 }
 
 .harmburger, .harmburger1, .harmburger2 {
