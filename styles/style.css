@@ -8,7 +8,6 @@ body {
     width: 100%;
     position: relative;
     z-index: -1;
-    margin-top: 4em;
 }
 
 .banner {
@@ -105,7 +104,6 @@ body {
 
 .profession {
     font-family: var(--Montserrat);
-    margin-top: .7em;
     width: 100%;
     letter-spacing: 1px;
     font-size: 1.1em;
@@ -131,11 +129,13 @@ body {
 
 #home{
     background: url(../assets/5348665.png);
-    /* opacity: .7; */
+    background-repeat: no-repeat;
+    background-position: center;
 }
 #porfolio{
     background: url(../assets/55.png);
-    /* opacity: .7; */
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .about {
     font-family: var(--Poppins);
@@ -309,8 +309,7 @@ body {
     #porfolio {
         width: 100%;
     }
-
-    
+   
     .text-align {
         justify-content: center;
     }
