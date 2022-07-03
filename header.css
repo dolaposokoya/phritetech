@@ -36,6 +36,12 @@
     transition: all .8s;
 }
 
+.sticky .navContainer {
+    margin-right: 2em;
+    z-index: 999999;
+    cursor: pointer;
+}
+
 .active-nav {
     display: flex;
     justify-content: center;
@@ -77,6 +83,14 @@
 }
 
 .active {
+    transform: translateX(0);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+}
+
+.sticky .active {
     transform: translateX(0);
     display: flex;
     flex-direction: column;
