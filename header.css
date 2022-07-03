@@ -31,10 +31,9 @@
     justify-content: center;
     align-items: center;
     margin-right: 2em;
-    background-color: aqua;
-    /* background-color: transparent; */
+    background-color: transparent;
     cursor: pointer;
-    transition: all 1s;
+    transition: all .8s;
 }
 
 .active-nav {
@@ -87,33 +86,35 @@
 .harmburger, .harmburger1, .harmburger2 {
     width: 2.5em;
     border-radius: .2em;
-    height: .4em;
+    height: .3em;
     margin: .1em;
-    transition: all 1s;
-    background-color: var(--theme-green);
+    border: 2px solid var(--theme-blue);
+    transition: all .5s;
 }
 
 .harmburger1 {
-    transition: opacity 3s;
+    width: 2em;
+    height: .3em;
+}
+
+.harmburger2 {
+    width: 1.8em;
 }
 
 
 .close {
-    -ms-transform: rotate(-45deg) translate(-6px);
-    transform: rotate(-45deg) translate(-6.5px);
-    width: 30px;
-    height: 4px;
+    width: 1.8em;
+    height: .3em;
 }
 
 .off {
-    display: none;
+    width: 2em;
+    height: .3em;
 }
 
 .close1 {
-    -ms-transform: rotate(45deg) translate(-4px);
-    transform: rotate(45deg) translate(-4px);
-    width: 30px;
-    height: 4px;
+    width: 2.5em;
+    height: .3em;
 }
 
 .active ul {
